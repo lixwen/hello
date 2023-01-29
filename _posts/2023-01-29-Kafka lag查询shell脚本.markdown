@@ -1,3 +1,6 @@
+Using shell script to query lag of kafka topics.
+
+```shell
 #!/bin/bash
 filename='processing.topics'
 result_filename='result.topics'
@@ -45,3 +48,5 @@ fi
 
 
 echo 'lag检查结束，请查看当前目录下的result.topics文件。其中第一列为topic名称，第二列为未消费消息数量。'
+```
+
